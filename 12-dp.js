@@ -5,6 +5,8 @@ import { strict as assert } from 'node:assert'
 
 try to get a feel for using DP casually
 
+took about 90 min
+
 */
 
 const testData=`???.### 1,1,3
