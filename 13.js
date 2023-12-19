@@ -3,7 +3,8 @@ import { strict as assert } from 'node:assert'
 
 /*
  part one in 2h04m
-
+ part two in about another hour (got stuck because I supported reflection around a column 
+ and not just between for some reason and so had multiple candidate reflections)
 
 */
 
