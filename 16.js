@@ -30,7 +30,7 @@ function day16pt1() {
     const content = readFileSync("16.input", "utf8")
     const input = parse(content)
     const result = compute(input)
-    console.log(`day15pt1: ${result}`)
+    console.log(`day16pt1: ${result}`)
 }
 
 function testPart1() {
