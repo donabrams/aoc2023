@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs'
 import { strict as assert } from 'node:assert'
-import { default as lcm } from 'compute-lcm';
+import { lcm } from 'mathjs';
 
 /*
     absolute    lap
@@ -131,7 +131,7 @@ function day8pt2() {
 	    return numSteps;
     })
     cycles.forEach(c=> assert(0 === c%directions.length));
-    const lcmCycles = lcm(cycles)
+    const lcmCycles = lcm(...cycles)
     console.log(`day8pt2: ${lcmCycles}`)
 }
 

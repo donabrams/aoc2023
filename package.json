@@ -1,8 +1,8 @@
 {
     "type": "module",
     "dependencies": {
-        "compute-lcm": "^1.1.2",
         "generatorics": "^1.1.0",
-        "lodash-es": "^4.17.21"
+        "lodash-es": "^4.17.21",
+        "mathjs": "^12.3.0"
     }
 }
